@@ -1,0 +1,80 @@
+.navBar {
+    color: whitesmoke
+}
+
+.fng-circle {
+    margin-top: 2px;
+    padding: 13px 16px;
+    border-radius: 26px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 16px;
+}
+
+.dashCardHeaders{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashCardSubHeaders{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.historicalBodyHeadings{
+    text-align: left;
+    font-size: 18px; 
+}
+
+.infoCircle{
+    position: absolute;
+    right: 5px
+}
+
+.mb-3{
+    padding-top: 20px;
+}
+
+.coinVals{
+    text-align: right;
+    font-weight: 500;
+    white-space: nowrap;
+    border-bottom: 1px solid;
+    background-color: whitesmoke;
+}
+  
+.headVals{
+    text-align: right;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.nameVals{
+    text-align: left;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.Table{
+    border-collapse: separate;
+    text-indent: initial;
+}
+
+tbody{
+    display: table-row-group;
+}
+
+.navBarDark{
+    background-color: var(--header-color-background,#fff);
+    border-bottom: 1px solid #e0e3eb;
+    color: #131722;
+    flex: none;
+    position: relative;
+    transition-property: background-color,color,border-bottom-color;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 2;
+
+}
